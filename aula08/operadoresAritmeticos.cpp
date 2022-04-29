@@ -8,12 +8,15 @@ int main(){
 
     int soma = 0;
     int subtracao = 0;
+    int multiplicacao = 0;
 
     soma = n1 + n2;
     subtracao = n1 - n2;
+    multiplicacao = n1 * n2;
 
     cout << "Soma: " << soma << endl;
     cout << "Subtração: " << subtracao << endl;
+    cout << "Multiplicação: " << multiplicacao << endl;
 
     return 0;
 }
