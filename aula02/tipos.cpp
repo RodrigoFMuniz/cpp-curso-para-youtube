@@ -12,7 +12,17 @@ int main(){
     bool alive; // true ou false
     string nome = "Codevibes"; // "Codevibes"
 
+    numero = 10;
+    letra = 'C';
+    decimal = 2.999999;
+    flutuante = 2.999;
+    alive = true;
+
     cout << nome << endl;
+    cout << letra << endl;
+    cout << decimal << endl;
+    cout << flutuante << endl;
+    cout << alive << endl;
 
     return 0;
 }
