@@ -23,5 +23,8 @@ int main(){
     cout << "Multiplicação: " << multiplicacao << endl;
     cout << "Divisão: " << divisao << endl; // divisão correta, sem erros
 
+    /* divisão incorreta, por erro de tipagem, os pontos flutuantes são ignorados*/
+    cout << "Divisão com erro devido a tipagem: " << divisao2 << endl; // retorna 2
+
     return 0;
 }
