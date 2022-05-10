@@ -12,6 +12,7 @@ int main(){
     bitset<8> bit1 = 0b00101001;
     bitset<8> bit2 = 0b00001111;
     bitset<8> res;
+    bitset<8> res2;
 
     d = a && b;
     cout << d << endl;
@@ -24,7 +25,11 @@ int main(){
 
     res = bit1 | bit2;
 
-    cout << res;
+    cout << res << endl;
+
+    res2 = bit1 & bit2;
+
+    cout << res2;
 
     return 0;
 }
