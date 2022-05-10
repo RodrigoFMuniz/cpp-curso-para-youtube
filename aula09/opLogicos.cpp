@@ -7,12 +7,15 @@ int main(){
     bool b = false;
     bool c = true;
     bool d;
+    bool e;
 
     d = a && b;
     cout << d << endl;
 
     d = a && c;
+    cout << d << endl;
 
-    cout << d;
+    e = a || c;
+    cout << e;
     return 0;
 }
