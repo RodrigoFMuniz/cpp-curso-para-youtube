@@ -9,10 +9,11 @@ int main(){
     bool c = true;
     bool d;
     bool e;
-    bitset<8> bit1 = 0b00101001;
-    bitset<8> bit2 = 0b00001111;
+    bitset<8> bit1 = 0b11111001;
+    bitset<8> bit2 = 0b10001111;
     bitset<8> res;
     bitset<8> res2;
+    bitset<8> xor1;
 
     d = a && b;
     cout << d << endl;
@@ -29,7 +30,11 @@ int main(){
 
     res2 = bit1 & bit2;
 
-    cout << res2;
+    cout << res2 << endl;
+
+    res2 = bit1 ^ bit2;
+
+    cout << xor1;
 
     return 0;
 }
